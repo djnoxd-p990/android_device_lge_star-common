@@ -3,7 +3,7 @@
 # inherit from the proprietary version
 -include vendor/lge/star-common/BoardConfigVendor.mk
 
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.6
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.4.3
  
 TARGET_ARCH := arm
 TARGET_NO_BOOTLOADER := true
