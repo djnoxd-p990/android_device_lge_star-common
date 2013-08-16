@@ -25,6 +25,7 @@ BOARD_HAS_NO_SELECT_BUTTON := true
 
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_BCM := true
+BOARD_HAVE_BLUETOOTH_BLUEZ := true
 
 TARGET_OVERLAY_ALWAYS_DETERMINES_FORMAT := true
 
@@ -70,3 +71,7 @@ TARGET_KERNEL_SOURCE := kernel/lge/star
 
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/platform/fsl-tegra-udc/gadget/lun%d/file"
 ##BOARD_BLUEDROID_VENDOR_CONF := device/lge/star-common/vnd_bt.txt
+
+# Compiler stuff
+#TARGET_USE_O3 := true 
+TARGET_USE_PIPE := true
